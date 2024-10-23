@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://alice-movies-frontend.vercel.app", "http://localhost:5173"],
+    origin: ["alice-movies-frontend-65yqevaqh-alicesoft-2024s-projects.vercel.app", "http://localhost:5173"],
     methods: ["POST", "GET"],
   })
 );
